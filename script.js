@@ -3,7 +3,7 @@ const input = document.getElementById('city');
 const button = document.getElementById('submit');
 
 button.addEventListener('click', () => {
-fetch('http://api.openweathermap.org/data/2.5/weather?q='+input.value+'&APPID=8c58cdf09921e64f4e1a85cf405d8398&units=metric')
+fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&APPID=8c58cdf09921e64f4e1a85cf405d8398&units=metric')
 .then(resp => resp.json())
 .then(data => {
 	
