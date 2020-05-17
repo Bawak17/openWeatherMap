@@ -1,0 +1,23 @@
+{
+  "name": "weather_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bawak17/openWeatherMap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bawak17/openWeatherMap/issues"
+  },
+  "homepage": "https://github.com/Bawak17/openWeatherMap#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
