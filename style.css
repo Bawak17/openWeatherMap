@@ -6,6 +6,7 @@
 
 body {
 	background: url('image/backgroundimage.jpg') no-repeat;
+	background-size:1920px;
 }
 
 .container {
